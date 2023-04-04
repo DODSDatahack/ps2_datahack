@@ -1,0 +1,9 @@
+pandas 
+numpy
+mlxtend
+matplotlib
+streamlit
+openai
+seaborn
+smtplib
+email_to
