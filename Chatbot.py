@@ -1,4 +1,4 @@
-API_KEY='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'
+API_KEY='YOUR_API_KEY'
 import openai
 import os
 import streamlit as st
