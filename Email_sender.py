@@ -6,13 +6,13 @@ from email.mime.text import MIMEText
 import streamlit as st
 sender_mail = "dods.sender@gmail.com"
 
-app_pass = "daiijzrbmyecytzv"
+app_pass = "YOUR_APP_PASSWORD"
 
 SHEET_ID = "1jYolDLbd5B-RyWRjrkIcjIlh9NFQHC-4DUuhDJDrTFQ"
 SHEET_NAME = "Returning_Customers_Data"
 URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}"
 # Set up the OpenAI API
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 # Load the dataset
 df = pd.read_csv('jetson-sample-data.csv')
